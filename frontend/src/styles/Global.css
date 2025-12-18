@@ -1,0 +1,109 @@
+/* ===== GLOBAL RESET ===== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #f4f6fb;
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 30px;
+  background-color: #4a63f5;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  margin: 0;
+  cursor: pointer;
+}
+
+/* ===== PROFILE MENU ===== */
+.profile-menu {
+  position: relative;
+}
+
+.profile-circle {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.profile-circle svg {
+  color: #4a63f5;
+}
+
+/* ===== DROPDOWN ===== */
+.dropdown {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  background: white;
+  color: #333;
+  border-radius: 8px;
+  width: 150px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  z-index: 2000;
+}
+
+.dropdown p {
+  margin: 0;
+  padding: 10px 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dropdown p:hover {
+  background-color: #f0f2ff;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== BUTTONS ===== */
+button {
+  padding: 10px 16px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+/* ===== LINKS ===== */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===== HEADINGS ===== */
+h1, h2, h3 {
+  margin-top: 0;
+}
+

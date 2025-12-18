@@ -1,0 +1,42 @@
+.create-poll-card {
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.create-poll-card h2 {
+  margin-bottom: 5px;
+}
+
+.create-poll-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.create-poll-card input,
+.create-poll-card select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.create-poll-card button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: #4a63f5;
+  color: white;
+  font-weight: bold;
+}
+
+.primary-btn:hover {
+  background-color: #394de0;
+}
